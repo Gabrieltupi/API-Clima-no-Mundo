@@ -18,7 +18,7 @@
         display:none;
     }
     .container{
-        background-color: #5c54ed;
+        background-color: rgba(92,84,237,0.5);
         box-shadow: rgba(0,0,0,0.24)0px 3px 8px;
         padding: 2rem;
         color:#fdfdfd;

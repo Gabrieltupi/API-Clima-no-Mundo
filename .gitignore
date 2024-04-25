@@ -1,0 +1,39 @@
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Pasta node_modules
+node_modules/
+
+# Arquivos de compilação
+/dist
+/out
+
+# Arquivos de ambiente
+.env
+
+# Logs e arquivos temporários
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.pid
+*.seed
+*.pid.lock
+*.log
+*.log.*
+*.tmp
+*.tmp.*
+*.swp
+*.out
+
+# Arquivos de configuração do IDE
+.vscode/
+
+# Dependências específicas do usuário
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw??
