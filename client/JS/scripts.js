@@ -34,9 +34,9 @@
                 atribuitions(dataWeather, dataImage);
             }catch(error){
                 console.error('error');
-            };
-            
+            }; 
         };
+        
         const atribuitions= async(dataWeather, dataImage)=>{
             cityElement.innerText=dataWeather.name;
             tempElement.innerText=parseInt(dataWeather.main.temp);
@@ -49,6 +49,5 @@
             document.body.style.backgroundImage = `url('${dataImage.urls.regular}')`;
         };
        
-
         });
     })();
